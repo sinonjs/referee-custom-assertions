@@ -1,0 +1,17 @@
+{
+  "name": "referee-custom-assert-with-mocha",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/sinonjs/referee-custom-assert-with-mocha.git"
+  },
+  "scripts": {
+    "test": "mocha -r ./test/assertions/*"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "referee": "^1.2.0"
+  }
+}
