@@ -2,7 +2,7 @@
 
 const { assert, refute } = require("referee");
 
-describe("some", function() {
+describe("isPrime", function() {
     it("should have isPrime installed", function() {
         assert.isPrime(5);
         refute.isPrime(6);
