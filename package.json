@@ -8,10 +8,10 @@
     "url": "http://github.com/sinonjs/referee-custom-assert-with-mocha.git"
   },
   "scripts": {
-    "test": "mocha -r ./test/assertions/*"
+    "test": "mocha -r ./test/assertions/* ./test/*.test.js"
   },
   "devDependencies": {
-    "mocha": "^5.2.0",
-    "referee": "^1.2.0"
+    "@sinonjs/referee": "^2.6.0",
+    "mocha": "^5.2.0"
   }
 }

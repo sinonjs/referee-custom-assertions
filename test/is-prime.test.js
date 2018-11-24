@@ -1,6 +1,6 @@
 'use strict';
 
-const { assert, refute } = require("referee");
+const { assert, refute } = require("@sinonjs/referee");
 
 describe("isPrime", function() {
     it("should have isPrime installed", function() {

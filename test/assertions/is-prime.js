@@ -1,6 +1,6 @@
 "use strict";
 
-const referee = require("referee");
+const referee = require("@sinonjs/referee");
 
 // adapted from https://stackoverflow.com/a/40200710
 function isPrime(number){
@@ -17,9 +17,6 @@ referee.add("isPrime", {
         if (typeof actual !== "number" || actual < 0) {
             throw new TypeError("'actual' argument should be a non-negative Number");
         }
-
-        this.actual = actual;
-
         return isPrime(actual);
     },
     assertMessage: "Expected ${actual} to be a prime number",
