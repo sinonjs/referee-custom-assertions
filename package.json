@@ -12,13 +12,15 @@
     "test:mochify": "mochify ./test/assertions/* ./test/*.test.js",
     "test:jest": "jest ./test/*.test.js --setupFiles ./test/assertions/*.js",
     "test:jasmine": "jasmine --helper=./test/assertions/* ./test/*.test.js",
-    "test": "npm run test:mocha && npm run test:mochify && npm run test:jest && npm run test:jasmine"
+    "test:tap": "tap ./test/fixture/tap-tests.js",
+    "test": "npm run test:mocha && npm run test:mochify && npm run test:jest && npm run test:jasmine && npm run test:tap"
   },
   "devDependencies": {
     "@sinonjs/referee": "^2.6.0",
     "jasmine": "^3.3.0",
     "jest": "^23.6.0",
     "mocha": "^5.2.0",
-    "mochify": "^6.0.3"
+    "mochify": "^6.0.3",
+    "tap": "^12.1.0"
   }
 }
