@@ -11,10 +11,12 @@
     "test:mocha": "mocha -r ./test/assertions/* ./test/*.test.js",
     "test:mochify": "mochify ./test/assertions/* ./test/*.test.js",
     "test:jest": "jest ./test/*.test.js --setupFiles ./test/assertions/*.js",
-    "test": "npm run test:mocha && npm run test:mochify && npm run test:jest"
+    "test:jasmine": "jasmine --helper=./test/assertions/* ./test/*.test.js",
+    "test": "npm run test:mocha && npm run test:mochify && npm run test:jest && npm run test:jasmine"
   },
   "devDependencies": {
     "@sinonjs/referee": "^2.6.0",
+    "jasmine": "^3.3.0",
     "jest": "^23.6.0",
     "mocha": "^5.2.0",
     "mochify": "^6.0.3"
