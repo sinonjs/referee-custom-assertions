@@ -16,7 +16,7 @@
     "test": "npm run test:mocha && npm run test:mochify && npm run test:jest && npm run test:jasmine && npm run test:tap"
   },
   "devDependencies": {
-    "@sinonjs/referee": "^2.6.0",
+    "@sinonjs/referee": "^3.2.0",
     "jasmine": "^3.5.0",
     "jest": "^24.9.0",
     "mocha": "^6.2.1",
