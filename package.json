@@ -18,7 +18,7 @@
   "devDependencies": {
     "@sinonjs/referee": "^5.0.0",
     "jasmine": "^3.5.0",
-    "jest": "^25.1.0",
+    "jest": "^25.2.4",
     "mocha": "^7.1.0",
     "mochify": "^6.6.0",
     "tap": "^14.10.6"
