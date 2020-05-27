@@ -21,5 +21,5 @@ referee.add("isPrime", {
     },
     assertMessage: "Expected ${actual} to be a prime number",
     refuteMessage: "Expected ${actual} to not be a prime number",
-    expectation: "toHaveArity"
+    expectation: "toBePrime"
 });
